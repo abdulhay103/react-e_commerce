@@ -15,7 +15,7 @@ const Product = ({ product }) => {
   console.log(product);
   return (
     <Card>
-      <CardMedia />
+      <CardMedia className={classes.media} />
       <CardContent>
         <div className={classes.cardContent}>
           <Typography variant="h5" gutterBottom>
